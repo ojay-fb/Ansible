@@ -1,0 +1,5 @@
+- name: Testing Windows Connections
+  hosts: BFWTN_Windows_Server:BFW_Windows_Server:Windows_Server_no_Domain
+  tasks:  
+    - name: Ping host
+      win_ping:

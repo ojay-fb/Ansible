@@ -1,0 +1,6 @@
+- hosts: BFWTN_Windows_Server
+  tasks:
+    - name: Copy Files to BFWTN Windows Server
+      win_copy:
+        src: files/check_mk_agent.msi
+        dest: c:/tmp/

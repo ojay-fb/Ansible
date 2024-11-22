@@ -1,0 +1,6 @@
+- hosts: Windows_Server_no_Domain
+  tasks:
+    - name: Copy Files to Windows Server exclude any Domains
+      win_copy:
+        src: files/check_mk_agent.msi
+        dest: c:/tmp/

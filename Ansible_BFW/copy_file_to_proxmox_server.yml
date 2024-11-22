@@ -1,0 +1,8 @@
+---
+
+- hosts: Proxmox_BS:Proxmox_VE
+  become: true
+  remote_user: root
+  tasks:
+    - name: Copy Files to Proxmox Server
+      copy: src=files/check-mk-agent_2.1.0p18-1_all.deb dest=/root/Install/

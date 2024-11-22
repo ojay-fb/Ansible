@@ -1,0 +1,10 @@
+- hosts: BFWTN_Windows_Server
+  tasks:
+    - name: Copy Files to BFWTN Windows Server
+      win_copy:
+        src: files/check_mk_agent.msi
+        dest: c:/tmp/
+    
+    - name: Install or Update the Check MK Agent on Remote Host
+      ansible.windows.win_command:
+        cmd: msiexec.exe /i "c:\tmp\check_mk_agent.msi" /q

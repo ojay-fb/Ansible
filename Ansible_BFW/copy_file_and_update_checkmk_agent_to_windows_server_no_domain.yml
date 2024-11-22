@@ -1,0 +1,10 @@
+- hosts: Windows_Server_no_Domain
+  tasks:
+    - name: Copy Files to Windows Server exclude any Domains
+      win_copy:
+        src: files/check_mk_agent.msi
+        dest: c:/tmp/
+    
+    - name: Install or Update the Check MK Agent on Remote Host
+      ansible.windows.win_command:
+        cmd: msiexec.exe /i "c:\tmp\check_mk_agent.msi" /q
