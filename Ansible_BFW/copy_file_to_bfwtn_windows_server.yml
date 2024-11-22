@@ -1,3 +1,5 @@
+---
+
 - hosts: BFWTN_Windows_Server
   tasks:
     - name: Copy Files to BFWTN Windows Server

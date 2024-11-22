@@ -1,3 +1,5 @@
+---
+
 - hosts: Windows_Server_no_Domain
   tasks:
     - name: Copy Files to Windows Server exclude any Domains

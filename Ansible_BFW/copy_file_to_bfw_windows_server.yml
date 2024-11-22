@@ -1,3 +1,5 @@
+---
+
 - hosts: BFW_Windows_Server
   tasks:
     - name: Copy Files to BFW Windows Server

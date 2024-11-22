@@ -4,6 +4,16 @@
 2-sv-ig-tn-02.bfwtn.intern
 
 [Debian_LXC]
+2-ct-wp-01.bfwtn.intern
+2-ct-wp-02.bfwtn.intern
+2-ct-wp-03.bfwtn.intern
+2-ct-wp-04.bfwtn.intern
+2-ct-wp-05.bfwtn.intern
+2-ct-wp-06.bfwtn.intern
+2-ct-wp-07.bfwtn.intern
+2-ct-wp-08.bfwtn.intern
+2-ct-wp-09.bfwtn.intern
+2-ct-wp-10.bfwtn.intern
 
 [Proxmox_BS]
 2-sv-bs-tn-01.bfwtn.intern
@@ -18,6 +28,8 @@
 2-sv-vs-tn-08.bfwtn.intern
 2-sv-vs-tn-09.bfwtn.intern
 2-sv-vs-tn-10.bfwtn.intern
+2-sv-vs-tn-11.bfwtn.intern
+2-sv-vs-tn-12.bfwtn.intern
 
 [BFWTN_Windows_Server]
 2-sv-dc-tn-01.bfwtn.intern
@@ -25,7 +37,6 @@
 2-sv-as-tn-01.bfwtn.intern
 2-sv-is-tn-03.bfwtn.intern
 2-sv-ds-tn-01.bfwtn.intern
-2-sv-ds-tn-02.bfwtn.intern
 2-sv-fs-tn-01.bfwtn.intern
 2-sv-ca-tn-01.bfwtn.intern
 

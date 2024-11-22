@@ -5,4 +5,4 @@
   remote_user: admin-server
   tasks:
     - name: Copy Files to Ubuntu Server
-      copy: src=files/check-mk-agent_2.1.0p18-1_all.deb dest=/home/admin-server/Transfer/
+      copy: src=files/check_mk_agent.msi dest=/home/admin-server/Transfer/

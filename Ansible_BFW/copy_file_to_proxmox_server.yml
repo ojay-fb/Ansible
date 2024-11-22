@@ -5,4 +5,4 @@
   remote_user: root
   tasks:
     - name: Copy Files to Proxmox Server
-      copy: src=files/check-mk-agent_2.1.0p18-1_all.deb dest=/root/Install/
+      copy: src=files/check-mk-agent_2.1.0p26-1_all.deb dest=/root/Install/
