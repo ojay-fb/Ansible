@@ -20,7 +20,6 @@
 
 [Proxmox_VE]
 2-sv-vs-tn-01.bfwtn.intern
-2-sv-vs-tn-02.bfwtn.intern
 2-sv-vs-tn-03.bfwtn.intern
 2-sv-vs-tn-04.bfwtn.intern
 2-sv-vs-tn-05.bfwtn.intern
@@ -39,6 +38,7 @@
 2-sv-ds-tn-01.bfwtn.intern
 2-sv-fs-tn-01.bfwtn.intern
 2-sv-ca-tn-01.bfwtn.intern
+2-sv-mg-tn-01.bfwtn.intern
 
 [BFW_Windows_Server]
 2-sv-fs-ma-03.bfw.intern

@@ -5,6 +5,6 @@
   remote_user: admin-server
   tasks:
     - name: Copy Files to Debian Server
-      copy: src=files/check-mk-agent_2.3.0p21-1_all.deb dest=/home/admin-server/Transfer/
+      copy: src=files/check-mk-agent_2.3.0p22-1_all.deb dest=/home/admin-server/Transfer/
     - name: Update CheckMK Agent
-      command: apt install /home/admin-server/Transfer/check-mk-agent_2.3.0p21-1_all.deb -y --allow-downgrades
+      command: apt install /home/admin-server/Transfer/check-mk-agent_2.3.0p22-1_all.deb -y --allow-downgrades
