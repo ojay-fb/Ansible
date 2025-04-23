@@ -1,0 +1,28 @@
+# Change Wordpress wp-config.php Proxy Settings
+
+sed -i 's/192.168.88.11/192.168.88.101/g' /var/www/wordpress/wp-config.php
+
+# Update Wordpress Core
+
+wp --allow-root core check-update --path=/var/www/wordpress
+
+# Update Wordpress PlugIns
+
+wp --allow-root plugin list --path=/var/www/wordpress
+wp --allow-root plugin update --all --path=/var/www/wordpress
+
+# Update Wordpress Themes
+
+wp --allow-root theme list --path=/var/www/wordpress
+wp --allow-root theme update --all --path=/var/www/wordpress
+
+# Update Wordpress Übersetzungen
+
+wp --allow-root language core list --status=active --path=/var/www/wordpress
+wp --allow-root language core update --path=/var/www/wordpress
+
+wp --allow-root language plugin list --all --status=active --path=/var/www/wordpress
+wp --allow-root language plugin update --all --path=/var/www/wordpress
+
+wp --allow-root language theme list --all --status=active --path=/var/www/wordpress
+wp --allow-root language theme update --all --path=/var/www/wordpress

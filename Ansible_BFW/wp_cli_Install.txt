@@ -1,0 +1,28 @@
+# Change Proxy Settings
+
+sed -i 's/192.168.88.11/2-proxy.bfwtn.intern/g' /etc/apt/apt.conf.d/99proxy
+
+# Update Operating System
+
+apt update && apt upgrade -y && apt autoremove -y
+
+# Set Proxy Environment Variable
+
+export http_proxy=http://2-proxy.bfwtn.intern:3128/
+export https_proxy=http://2-proxy.bfwtn.intern:3128/
+
+# Install Wordpress CLI
+
+cd Transfer
+
+curl -x http://2-proxy.bfwtn.intern:3128/ -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+
+php wp-cli.phar --info
+
+chmod +x wp-cli.phar
+
+mv wp-cli.phar /usr/local/bin/wp
+
+# Info WP CLI
+
+wp --allow-root --info
