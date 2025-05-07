@@ -5,6 +5,6 @@
   remote_user: root
   tasks:
     - name: Copy Files to Debian LXC Container
-      copy: src=files/check-mk-agent_2.3.0p30-1_all.deb dest=/root/Transfer/
+      copy: src=files/check-mk-agent_2.4.0-1_all.deb dest=/root/Transfer/
     - name: Update CheckMK Agent
-      command: apt install /root/Transfer/check-mk-agent_2.3.0p30-1_all.deb -y --allow-downgrades
+      command: apt install /root/Transfer/check-mk-agent_2.4.0-1_all.deb -y --allow-downgrades

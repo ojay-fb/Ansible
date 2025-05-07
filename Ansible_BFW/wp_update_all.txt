@@ -5,6 +5,7 @@ sed -i 's/192.168.88.11/192.168.88.101/g' /var/www/wordpress/wp-config.php
 # Update Wordpress Core
 
 wp --allow-root core check-update --path=/var/www/wordpress
+wp --allow-root core update --path=/var/www/wordpress
 
 # Update Wordpress PlugIns
 
@@ -26,3 +27,9 @@ wp --allow-root language plugin update --all --path=/var/www/wordpress
 
 wp --allow-root language theme list --all --status=active --path=/var/www/wordpress
 wp --allow-root language theme update --all --path=/var/www/wordpress
+
+# Upgrading the WooCommerce database using WP CLI
+wp --allow-root wc update --path=/var/www/wordpress
+
+# Upgrading Elementor using WP CLI
+wp --allow-root elementor update db --path=/var/www/wordpress

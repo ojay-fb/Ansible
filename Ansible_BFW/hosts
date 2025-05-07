@@ -12,6 +12,18 @@
 2-ct-wpx-03.bfwtn.intern
 2-ct-wpx-04.bfwtn.intern
 
+[Debian_LXC_WordPress]
+2-ct-wp-01.bfwtn.intern
+2-ct-wp-02.bfwtn.intern
+2-ct-wp-03.bfwtn.intern
+2-ct-wp-04.bfwtn.intern
+2-ct-wp-05.bfwtn.intern
+2-ct-wp-06.bfwtn.intern
+2-ct-wp-07.bfwtn.intern
+2-ct-wp-08.bfwtn.intern
+2-ct-wp-09.bfwtn.intern
+2-ct-wp-10.bfwtn.intern
+
 [Proxmox_BS]
 2-sv-bs-tn-01.bfwtn.intern
 
