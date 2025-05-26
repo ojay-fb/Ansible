@@ -1,8 +1,9 @@
 eval "$(ssh-agent -s)"
 ssh-add /home/ojayfb/.ssh/id_ed25519
-ansible-playbook --ask-become-pass update_checkmk_agent_on_debian_lxc.yml 
+ansible-playbook --ask-become-pass update_checkmk_agent_on_debian_lxc.yml
+ansible-playbook --ask-become-pass update_checkmk_agent_on_debian_lxc_wordpress.yml
 ansible-playbook --ask-become-pass update_checkmk_agent_on_debian_server.yml
-ansible-playbook --ask-become-pass update_checkmk_agent_on_proxmox_systems.yml 
+ansible-playbook --ask-become-pass update_checkmk_agent_on_proxmox_systems.yml
 ansible-playbook --ask-become-pass copy_file_and_update_checkmk_agent_to_bfw_windows_server.yml
-ansible-playbook --ask-become-pass copy_file_and_update_checkmk_agent_to_bfwtn_windows_server.yml 
-ansible-playbook --ask-become-pass copy_file_and_update_checkmk_agent_to_windows_server_no_domain.yml 
+ansible-playbook --ask-become-pass copy_file_and_update_checkmk_agent_to_bfwtn_windows_server.yml
+ansible-playbook --ask-become-pass copy_file_and_update_checkmk_agent_to_windows_server_no_domain.yml
