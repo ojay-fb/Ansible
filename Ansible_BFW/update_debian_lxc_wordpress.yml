@@ -52,3 +52,12 @@
 
     - name: Update Wordpress WooCommerce Datebase with wp cli
       command: wp --allow-root wc update --path=/var/www/wordpress
+
+    - name: Delete Wordpress Theme with wp cli
+      command: wp --allow-root theme delete twentytwentytwo --path=/var/www/wordpress
+
+    - name: Delete Wordpress Theme with wp cli
+      command: wp --allow-root theme delete twentytwentythree --path=/var/www/wordpress
+
+    - name: Delete Wordpress Theme with wp cli
+      command: wp --allow-root theme delete twentytwentyfour --path=/var/www/wordpress
