@@ -50,7 +50,6 @@
 
 [BFW_Windows_Server]
 2-sv-fs-ma-03.bfw.intern
-2-sv-ds-ma-03.bfw.intern
 2-sv-as-ma-10.bfw.intern
 
 [Windows_Server_no_Domain]
