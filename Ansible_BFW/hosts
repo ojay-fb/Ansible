@@ -1,16 +1,12 @@
 [Debian_Server]
 2-sv-ms-tn-01.bfwtn.intern
+2-SV-MS-TN-02.bfwtn.intern
 2-sv-ig-tn-01.bfwtn.intern
 2-sv-ig-tn-02.bfwtn.intern
 2-sv-as-ma-12.bfw.intern
 
 [Debian_LXC]
-2-ct-ngx-01.bfwtn.intern
 2-ct-wpm-01.bfwtn.intern
-2-ct-wpx-01.bfwtn.intern
-2-ct-wpx-02.bfwtn.intern
-2-ct-wpx-03.bfwtn.intern
-2-ct-wpx-04.bfwtn.intern
 
 [Debian_LXC_WordPress]
 2-ct-wp-01.bfwtn.intern
@@ -36,13 +32,11 @@
 2-sv-vs-tn-09.bfwtn.intern
 2-sv-vs-tn-10.bfwtn.intern
 2-sv-vs-tn-11.bfwtn.intern
-2-sv-vs-tn-12.bfwtn.intern
 
 [BFWTN_Windows_Server]
 2-sv-dc-tn-01.bfwtn.intern
 2-sv-dc-tn-02.bfwtn.intern
 2-sv-as-tn-01.bfwtn.intern
-2-sv-is-tn-03.bfwtn.intern
 2-sv-ds-tn-01.bfwtn.intern
 2-sv-fs-tn-01.bfwtn.intern
 2-sv-ca-tn-01.bfwtn.intern
@@ -54,8 +48,8 @@
 2-sv-as-ma-10.bfw.intern
 
 [Windows_Server_no_Domain]
-2-sv-is-tn-01.bfwtn.intern
-2-sv-is-tn-02.bfwtn.intern
+2-sv-ec-tn-01.bfwtn.intern
+2-sv-wu-tn-01.bfwtn.intern
 2-sv-as-ma-11.bfw.intern
 
 [BFWTN_Windows_Server:vars]
