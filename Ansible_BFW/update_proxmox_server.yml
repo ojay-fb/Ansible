@@ -1,6 +1,6 @@
 ---
 
-- hosts: Proxmox_BS:Proxmox_VE
+- hosts: Proxmox_BS:Proxmox_VE:Proxmox_PDM
   become: true
   remote_user: root
   tasks:

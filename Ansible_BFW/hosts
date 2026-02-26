@@ -33,6 +33,9 @@
 2-sv-vs-tn-10.bfwtn.intern
 2-sv-vs-tn-11.bfwtn.intern
 
+[Proxmox_PDM]
+2-sv-pdm-tn-01.bfwtn.intern
+
 [BFWTN_Windows_Server]
 2-sv-dc-tn-01.bfwtn.intern
 2-sv-dc-tn-02.bfwtn.intern
